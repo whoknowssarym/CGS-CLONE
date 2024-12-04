@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #434343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header .nav-upper{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+    padding-left: 150px;
+    margin-bottom: 20px;
+}
+
+
+header .nav-upper #img-logo{
+    height: 58px;
+    width: 121px;
+    margin-right: 250px;
+}
+
+.Main-Hero{
+    display: flex;
+    align-items: center;
+    background-color: #F5F5FD;
+    height: 580px;
+    width : 100%;
+    padding-left: 150px;
+    padding-top: 140px;
+    margin-bottom: 100px;
+}
+
+
+.Main-Hero #P-Welcome{
+    font-size: 19px;
+    font-weight: 600;
+    color: #434343;
+}
+
+.Main-Hero #P-H1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.Main-Hero .main-Hero-Scnd{
+    /* background-color: red; */
+    height: 90%;
+    width: 45%;
+    margin-right: 50px;
+}
+
+
+.Main-Hero .main-Hero-Scnd #P-Desc{
+    font-size: medium;
+    font-size: 20px;
+    color: #434343;
+    margin-bottom: 40px;
+}
+
+.Main-Hero .main-Hero-Scnd .Btn-Learn-More{
+    border-radius: 25px;
+    background-color:#153ABD ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width:158px;
+    margin-right: 30px;
+
+}
+
+.Btn-Learn-More #L-Learn-More{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.Main-Hero .main-Hero-Scnd .threethings{
+    display: flex;
+    align-items: center;
+
+}
+
+.Main-Hero .main-Hero-Scnd .threethings #img-phone{
+    padding-right: 20px;
+
+}
+
+.Phone-Q{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-Hero-Third{
+    height: 70%;
+    width: 45%;
+}
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .background-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    background-color: #eaf1fc;
+    border-radius: 50%;
+    z-index: 0;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .info-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 100px;
+  }
+  
+  .info-card .icon {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .info-card .percentage {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .info-card .text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .team-image {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.Services-Main{
+    width: 100%;
+    height: 500px;
+    padding-left: 150px;
+}
+
+.Service-Child{
+    display: flex;
+}
+  
+#First{
+    color: red;
+    font-size: x-large;
+    
+}
+  
+#Flawless-Service{
+    font-size: 50px;
+
+}
+
+
+.SERVICES-PRO{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.btnView-All-Service{
+    border-radius: 25px;
+    background-color:#153ABD ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width:180px;
+    margin-right: 30px;
+}
+
+#Serv-Link{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.Services-Cards{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.Services-Cards .Cards-Parents{
+    height: 300px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px 10px lightsteelblue;
+    padding: 25px;
+}
+
+.ReadMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #153ABD;
+    padding: 12px;
+    border-radius: 16px;
+    width: 150px;
+}
+
+.Read-More-Link{
+    color: #ffffff;
+}
+
+.Features-Parent{
+    width: 100%;
+    background-color: #18407C;
+    height: 900px;
+     padding-top: 40px; 
+    padding-left: 150px;
+}
+
+
+.Features-Parent .Features-Child-01{
+    width: 600px;
+    margin-right: 100px;
+    /* background-color: red; */
+}
+
+.Client-Numbers{
+    display: flex;
+    align-items:flex-end;
+}
+
+.Num{
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-right: 80px;
+}
+
+.Client-Numers02{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.HH{
+    padding-right: 50px;
+
+}
+
+.Features-Child{
+    display: flex;
+    align-items: center;
+
+}
+
+
+ .Features-Parent .Features-Child .Features-Child-02{
+    width: 600px;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.Features-Parent .Features-Child .Features-Child-02 .Features-Child-02-card1{
+    border-radius: 24px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Features-Parent .Features-Child .Features-Child-02 .Features-Child-02-card2{
+    border-radius: 24px;
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ 
+.Features-Parent .Features-Child-03{
+    margin-left: 700px;
+    width: 600px;
+    height: 400px;
+    /* background-color: palevioletred; */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Features-Parent .Features-Child-03 .Features-Child-03-01{
+    display: flex;
+}
+
+.Features-Parent .Features-Child-03 .Features-Child-03-01 .Features-Child-03-card1{
+    border-radius: 24px;
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    margin: 40px;
+}
+
+.Features-Parent .Features-Child-03 .Features-Child-03-01 .Features-Child-03-card2{
+    border-radius: 24px;
+    height: 300px;
+    width: 220px;
+    background-color: white;
+    margin: 40px;
+}
+
+.Features-Child-02-card1-Img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-image: url("https://cgs.com.pk/wp-content/themes/spike-business/assets/images/feature-img1.png");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.Features-Child-02-card2-Img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-image: url("https://cgs.com.pk/wp-content/themes/spike-business/assets/images/feature-img2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.Features-Child-03-card1-Img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-image: url("https://cgs.com.pk/wp-content/themes/spike-business/assets/images/feature-img3.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.Features-Child-03-card2-Img{
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-left: 45px;
+    margin-top: 10px;
+    background-image: url("https://cgs.com.pk/wp-content/themes/spike-business/assets/images/feature-img4.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.Why-Choose-Us{
+    /* margin-top: 80px; */
+    padding-top: 100px;
+    width: 100%;
+    height: 700px;
+    background-color: #F5F5FD;
+}
+
+.Why-Choose-Us .Why-Choose-Us-Parent{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 600px;
+    display:flex;
+    /* text-align: center; */
+    /* align-items: center; */
+
+}
+
+.Why-Choose-Us-Child-01{
+    width: 387px;
+    height: 416px;
+    /* background-color: bisque; */
+    margin-left: 150px ;
+    border-radius: 22px;
+    background-image: url("https://cgs.com.pk/wp-content/themes/spike-business/assets/images/about-img1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Why-Choose-Us-Child-02{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.ImageListContent{
+    display: flex;
+    height: 150px;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.img-sales{
+    margin-right: 40px;
+}
+
+.sales-content{
+    line-height: 28px;
+}
+
+.checkboximg{
+    width: 20px;
+    height: 120px;
+    margin-right: 10px;
+    /* background-color: #555; */
+    display: grid;
+}
+
+.btnExplore-OurServices{
+    border-radius: 25px;
+    background-color:#153ABD ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width:180px;
+    margin-left: 150px;
+}
