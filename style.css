@@ -18,6 +18,7 @@ a{
     font-weight: 400;
 }
 
+
 header .nav-upper{
     display: flex;
     align-items: center;
@@ -31,6 +32,8 @@ a:hover{
     color: #153ABD;
     font-weight: bolder;
 }
+
+
 
 header .nav-upper #img-logo{
     height: 58px;
