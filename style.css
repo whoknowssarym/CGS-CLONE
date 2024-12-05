@@ -27,6 +27,10 @@ header .nav-upper{
     margin-bottom: 20px;
 }
 
+a:hover{
+    color: #153ABD;
+    font-weight: bolder;
+}
 
 header .nav-upper #img-logo{
     height: 58px;
